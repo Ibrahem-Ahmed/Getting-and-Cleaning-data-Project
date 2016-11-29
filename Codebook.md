@@ -7,6 +7,7 @@ The Script.R is running successfully under R version 3.3.2 using R studio V.0.99
 2.1 Used libraries (they will be loaded by default)
 * library(base)
 * library(stats)
+
 2.2 R functions used in the script (you can refere to R documentation if need more descriptive information)
 * setwd()         //setting working directory
 * download.file() //for downloading file from internet to local machine
@@ -23,6 +24,7 @@ The Script.R is running successfully under R version 3.3.2 using R studio V.0.99
 
 ## 3.Variables
 After excuting the code you can find the final result is kept in data.frame "Data" in this order (you can find more information by using str(Data).)
+
 tBodyAcc-mean()-X 
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
