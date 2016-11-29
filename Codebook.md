@@ -4,10 +4,10 @@ This Codebook conatains information about R script and submitted tidy data and h
 
 ## 2.Script.R
 The Script.R is running successfully under R version 3.3.2 using R studio V.0.99.903 under windows 10.
-### ..* Used libraries (they will be loaded by default)
-..* library(base)
-..* library(stats)
-### ..* R functions used in the script (you can refere to R documentation if need more descriptive information)
+2.1 Used libraries (they will be loaded by default)
+* library(base)
+* library(stats)
+2.2 R functions used in the script (you can refere to R documentation if need more descriptive information)
 ..* setwd()         //setting working directory
 ..* download.file() //for downloading file from internet to local machine
 ..* read.table()    //to read data from .txt files
@@ -22,7 +22,7 @@ The Script.R is running successfully under R version 3.3.2 using R studio V.0.99
 ### Code steps documentation are provided in Script.R
 
 ## 3.Variables
-..* After excuting the code you can find the final result is kept in data.frame "Data" in this order (you can find more information by using str(Data).)
+After excuting the code you can find the final result is kept in data.frame "Data" in this order (you can find more information by using str(Data).)
 tBodyAcc-mean()-X 
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
