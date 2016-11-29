@@ -53,5 +53,5 @@ names(Data)[68]<-c("ActivityDescription")
 ##Get the tidy dataset
 TidyData<-aggregate(. ~SubjectId + ActivityDescription, Data, mean)
 TidyData<-Data[order(Data$SubjectId),]
-write.table(Data, file = "TidyData.txt",row.name=FALSE)
+write.table(TidyData, file = "TidyData.txt",row.name=FALSE)
 write.csv(TidyData, "TidyData.csv")
