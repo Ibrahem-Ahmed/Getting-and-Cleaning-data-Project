@@ -4,6 +4,7 @@ This Codebook conatains information about R script and submitted tidy data and h
 
 ## 2.Script.R
 The Script.R is running successfully under R version 3.3.2 using R studio V.0.99.903 under windows 10.
+
 2.1 Used libraries (they will be loaded by default)
 * library(base)
 * library(stats)
