@@ -2,8 +2,8 @@
 ## 1.Overview
 This Codebook conatains information about R script and submitted tidy data and how to excute this code to get to the tidy data
 
-## 2.Script.R
-The Script.R is running successfully under R version 3.3.2 using R studio V.0.99.903 under windows 10.
+## 2.run_analysis.R
+The run_analysis.R is running successfully under R version 3.3.2 using R studio V.0.99.903 under windows 10.
 
 2.1 Used libraries (they will be loaded by default)
 * library(base)
@@ -21,7 +21,7 @@ The Script.R is running successfully under R version 3.3.2 using R studio V.0.99
 * gsub()/grep()   //pattern matching and replacement
 * aggregate()     //statistical summary of dataset based on function
 
-### Code steps documentation are provided in Script.R
+### Code steps documentation are provided in run_analysis.R
 
 ## 3.Variables
 After excuting the code you can find the final result is kept in data.frame "Data" in this order (you can find more information by using str(Data).)
