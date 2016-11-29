@@ -8,16 +8,16 @@ The Script.R is running successfully under R version 3.3.2 using R studio V.0.99
 * library(base)
 * library(stats)
 2.2 R functions used in the script (you can refere to R documentation if need more descriptive information)
-..* setwd()         //setting working directory
-..* download.file() //for downloading file from internet to local machine
-..* read.table()    //to read data from .txt files
-..* write.table()   //to write data to local file
-..* rbind()         //row binding
-..* cbind()         //column binding
-..* colnames()      //column names
-..* names()         //names of R object
-..* gsub()/grep()   //pattern matching and replacement
-..* aggregate()     //statistical summary of dataset based on function
+* setwd()         //setting working directory
+* download.file() //for downloading file from internet to local machine
+* read.table()    //to read data from .txt files
+* write.table()   //to write data to local file
+* rbind()         //row binding
+* cbind()         //column binding
+* colnames()      //column names
+* names()         //names of R object
+* gsub()/grep()   //pattern matching and replacement
+* aggregate()     //statistical summary of dataset based on function
 
 ### Code steps documentation are provided in Script.R
 
